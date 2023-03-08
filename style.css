@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 14px;
+    margin-top: -1%;
+}
+
+.navlink ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 64px;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navlink ul li:hover {
+    color: #654DF8;
+}
+
+.navlink ul {
+    margin-top: 2%;
+}
+
+.navlink {
+    flex-basis: 80%;
+    margin-right: -28%;
+    width: 200%;
+}
+
+.navlink ul li {
+    padding: 0 4%;
+}
+
+.nav-link {
+    margin-top: 0.8%;
+    margin-right: 2%;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    position: relative;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #654DF8;
+    font-weight: 500;
+    transition: 0.5s;
+    color: #fff;
+}
+
+
+/* QR CODES */
+
+.Batch {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    margin-bottom: 40%;
+}
+
+.img img {
+    margin-bottom: -45.5%;
+    width: 35%;
+    height: 100vh;
+    position: fixed;
+}
+
+.batch {
+    width: 83%;
+    background: #ECECEC;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 17px;
+    padding: 2% 3%;
+    padding-top: 0%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+.product img {
+    width: 100%;
+    margin-left: -20%;
+    margin-top: 28%;
+}
+
+.code h2 {
+    color: #654DF8;
+    line-height: 47px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.code input {
+    width: 69.5%;
+    padding: 12px 0px 12px 0px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #654DF8;
+    box-sizing: border-box;
+    background: #ECECEC;
+    margin-left: 0%;
+}
+
+.code button {
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #654DF8;
+    background-color: #654DF8;
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #323232;
+    font-size: 13.5px;
+}
+
+/* REGISTER PRODUCT */
+
+.Register {
+    padding-top: 7%;
+    padding-bottom: 38%;
+    margin-bottom: 10%;
+}
+
+.register {
+    width: 83%;
+    height: 65vh;
+    background: #ECECEC;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 17px;
+    padding: 2% 3%;
+    padding-top: 0%;
+    position: absolute;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.product2 img {
+    width: 90%;
+    margin-left: -13%;
+    margin-top: 20%;
+}
+
+.code1 h2 {
+    color: #654DF8;
+    line-height: 47px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.code1 input {
+    width: 70%;
+    padding: 12px 12px 12px 0px;
+    margin-bottom: 25px;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #654DF8;
+    box-sizing: border-box;
+    background: #ECECEC;
+}
+
+.code1 button {
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #654DF8;
+    background-color: #654DF8;
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #323232;
+    font-size: 13.5px;
+}
+
+/* VIEW ALL PRODUCTS */
+
+.View {
+    padding-top: 7%;
+    padding-bottom: 38%;
+    margin-bottom: 30%;
+}
+
+.view {
+    width: 83%;
+    height: 65vh;
+    background: #ECECEC;
+    margin: auto;
+    border-radius: 17px;
+    padding: 2% 3%;
+    padding-bottom: 30%;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.code2 h2 {
+    color: #654DF8;
+    line-height: 47px;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 4%;
+    padding-top: 3%; 
+    margin-left: -1%;
+}
+
+.all {
+    width: 95%;
+    background-color: #f5f7fc;
+    padding-left: 5%;
+    padding-right: 1%;
+    margin: auto;
+    padding-bottom: 0%;
+    margin-top: -4%;
+    padding-top: 1%;
+    margin-left: -1%;
+}
+
+.sicon {
+    margin-left: -5%;
+}
+
+.sicon input[type=text] {
+    float: right;
+    padding: 9px 0px 9px 30px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(104, 113, 130, 0.16);
+    margin-right: 60%;
+    font-size: 17px;
+    background: #FFFFFF;
+    width: 30%;
+    margin-top: 0.4%;
+    margin-bottom: 3%;
+}
+
+.sicon input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: darkgrey;
+    font-size: 13.5px;
+}
+
+td:nth-child(odd) {
+    text-align: left;
+}
+
+td:nth-child(even) {
+    text-align: left;
+}
+
+.table {
+    font-size: small;
+    margin: auto;
+    text-align: left;
+    width: 101.2%;
+    background: #fff;
+    margin-left: -0.2%;
+    color: #464F60;
+}
+
+.table tbody span {
+    font-weight: 200;
+}
+
+.man {
+    color: #4F5AED;
+    padding-bottom: 1%;
+}
+
+.prate {
+    padding-bottom: 1%;
+}
+
+.date {
+    padding-bottom: 1%;
+    color: #D12953;
+}
